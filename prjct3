@@ -1,0 +1,12 @@
+# Rent Calculator
+
+rent = float(input("Enter total rent: "))
+food = float(input("Enter total food expense: "))
+electricity = float(input("Enter electricity bill: "))
+persons = int(input("Enter number of persons: "))
+
+total_expense = rent + food + electricity
+per_person = total_expense / persons
+
+print("Total Expense =", total_expense)
+print("Rent per Person =", per_person)
